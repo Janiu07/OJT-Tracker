@@ -37,7 +37,7 @@ const Login = ({ onSwitchToRegister }) => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-500 to-purple-600 px-4" style={{ backgroundColor: 'var(--bg-secondary)' }}>
       <div className="rounded-xl shadow-2xl p-8 w-full max-w-md modal-content" style={{ backgroundColor: 'var(--bg-primary)', color: 'var(--text-primary)' }}>
-        <h2 className="text-3xl font-bold mb-6 text-center" style={{ color: 'var(--text-primary)' }}>Login to OJT Trackers</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center" style={{ color: 'var(--text-primary)' }}>Login to OJT Tracker</h2>
         {error && (
           <div className="border text-red-700 px-4 py-3 rounded mb-4" role="alert" aria-live="polite" style={{ backgroundColor: '#ececec', borderColor: '#fca5a5', color: '#dc2626' }}>
             {error}
