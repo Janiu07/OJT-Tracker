@@ -23,7 +23,7 @@ const sendVerificationEmail = async (email, token, code) => {
     console.log('Email verification is not configured. Use this verification link instead:');
     console.log(verificationUrl);
     console.log(`Verification code: ${code}`);
-    return;
+    return; 
   }
 
   await transporter.sendMail({
